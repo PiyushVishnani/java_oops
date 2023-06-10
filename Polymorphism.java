@@ -15,8 +15,12 @@ class Student{
 public class Polymorphism {
     public static void main(String[] args) {
         Student s1 = new Student();
+        Student s2 = new Student();
         s1.name = "piyush";
         s1.age = 19;
         s1.printInfo(s1.age);
+        s2.name = 'aditya';
+        s2.age = 21;
+        s2.printInfo(s1.age);
     }
 }
